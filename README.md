@@ -6,9 +6,10 @@ Add this line to your application's Gemfile:
 
 ```ruby
 gem 'country_details'
-
-gem insall country_details
+Or
+gem install country_details
 ```
+
 
 And then execute:
 
