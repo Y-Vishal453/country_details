@@ -1,9 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'country_details'
-  s.version     = '0.0.2'
-  s.add_development_dependency "rest-client",
-    [">= 2.1.0"]
-  s.date        = '2020-01-11'
+  s.version     = '1.0.0'
+  s.date        = '2025-03-21'
   s.summary     = "CountryDetails!"
   s.description = "Get all details of any country by name of that country"
   s.authors     = ["Vishal Yadav"]
