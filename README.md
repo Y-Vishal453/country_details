@@ -1,36 +1,25 @@
-# A Ruby wrapper for the [REST Countries](https://restcountries.eu/) [public API](https://restcountries.eu/#api-endpoints-all)
-
-[![Gem](https://img.shields.io/gem/v/country_details.svg?style=flat)](https://rubygems.org/gems/country_details)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/YVishal453/country_details/blob/master/LICENSE)
-
-This is a simple [REST Client](https://github.com/rest-client/rest-client)-based gem for accessing the REST Countries REST APIs. Please see the [REST Countries documentation](https://restcountries.eu/#api-endpoints) for general information. Please report any
-problems by opening issues in this repo.
-
-**BEWARE: this gem does not (yet) cover all the API calls of the REST Countries API; for now on only search by name/code is supported**
+# A Ruby wrapper for get all country details by country name or by country codes supports ruby versions 2.x to 3.x
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rest-client'
 gem 'country_details'
+
+gem insall country_details
 ```
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install rest-client
-    $ gem install country_details
 
 ## Usage
 
 Create a new client:
 ```ruby      
-    country_details = CountryDetails::Get.new()
+    country_details = CountryDetails::Fetch.new
 ```
 ### Fetch all countries details:
 ```ruby        
